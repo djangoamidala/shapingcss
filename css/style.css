@@ -56,11 +56,7 @@ body{
     text-align: center;
     line-height: 50px;
 }
-.text_border {
-    border:3px solid black;
-    border-radius: 10px;
-    padding: 10px;
-}.colonne_menu ul li {
+.colonne_menu ul li {
     background-color: gold;
     padding: 10px;
     margin: 10px;
@@ -72,7 +68,6 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-family: roboto;
 }
 .titre {
     color: white;
@@ -102,6 +97,11 @@ strong {
 em {
     color: brown;
 }
-
-
-
+.introduction {
+    border:3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+a {
+    font-weight: bold;
+}
