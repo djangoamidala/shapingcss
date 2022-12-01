@@ -33,22 +33,23 @@ body{
     margin: 0;
     padding: 0;
 }
-.page {
-
-}
 .entete{
     background-color: rgb(119, 136, 153);
-    padding: 10px;
 }
 .colonnes {
     background-color:rgb(119, 136, 153);
 }
 .colonne_menu{
-    background-color: gold;
+    background-color:rgb(119, 136, 153);
+    
+}
+.colonne_menu ul {
+    margin: 0;
+    padding: 0;
 }
 .colonne_contenu {
-    background-color: rgb(119, 136, 153);
-    margin: 10px;
+    background-color: white;
+   padding: 10px;
 }
 .pieddepage{
     background-color: yellow;
@@ -56,18 +57,23 @@ body{
     text-align: center;
     line-height: 50px;
 }
-.colonne_menu ul li {
+.colonne_menu li {
     background-color: gold;
-    padding: 10px;
-    margin: 10px;
+    font-size: 1em;
+    margin: 5px;
+    text-align: center;
     color: black;
     list-style-type: none;
-   
-}
-a {
     text-decoration: none;
+}
+.colonne_menu li a:hover {
     color: black;
-    font-weight: bold;
+}
+.colonne_menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
 }
 .titre {
     color: white;
@@ -102,6 +108,11 @@ em {
     border-radius: 10px;
     padding: 10px;
 }
-a {
+.colonne_contenu p a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
+}
+.colonne_contenu p a:hover {
+    color: white;
 }
