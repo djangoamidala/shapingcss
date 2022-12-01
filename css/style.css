@@ -1,0 +1,76 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+.page{
+    width: 900px;
+    margin:auto;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: mediumpurple; 
+}
+.page {
+	background-color: rgb(119, 136, 153);
+    display: f;
+}
+.entete{
+    background-color: rgb(119, 136, 153);
+}
+.colonnes {
+    background-color:rgb(119, 136, 153);
+}
+.colonne_menu{
+    background-color: gold;
+}
+.colonne_contenu {
+    background-color: rgb(255, 255, 255);
+}
+.pieddepage{
+    background-color: lightgray;
+}
+.entete {
+    color: white;
+    font-size: 1.8em;
+}
+.text_border {
+    border:3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}.colonne_menu ul li {
+    background-color: gold;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    list-style-type: none;
+   
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+
+
+
