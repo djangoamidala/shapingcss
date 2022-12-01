@@ -50,7 +50,9 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .pieddepage{
-    background-color: lightgray;
+    background-color: yellow;
+    color: green;
+    text-align: center;
 }
 .text_border {
     border:3px solid black;
@@ -70,7 +72,16 @@ a {
     font-weight: bold;
     font-family: roboto;
 }
-
+.titre {
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+}
+.slogan {
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+}
 
 
 
